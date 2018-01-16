@@ -7,3 +7,6 @@ ActiveRecord::Base.establish_connection(
 )
 
 require_all 'app'
+require_relative '../app/movies_controller.rb'
+require_relative '../app/models/.keep'
+require_relative '../app/models/movie.rb'
